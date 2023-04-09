@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="15" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-09T20:42:32 IST" name="Suite" finished-at="2023-04-09T20:43:31 IST" duration-ms="59418">
+    <groups>
+    </groups>
+    <test started-at="2023-04-09T20:42:32 IST" name="Test" finished-at="2023-04-09T20:43:31 IST" duration-ms="59418">
+      <class name="testcases.ProductSearchByname">
+        <test-method signature="verifyBlog()[pri:0, instance:testcases.ProductSearchByname@7c729a55]" started-at="2023-04-09T20:43:14 IST" name="verifyBlog" finished-at="2023-04-09T20:43:30 IST" duration-ms="16630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBlog -->
+      </class> <!-- testcases.ProductSearchByname -->
+      <class name="testcases.LoginFunctionalTestCases">
+        <test-method signature="VerifyInvalidUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginFunctionalTestCases@47af7f3d]" started-at="2023-04-09T20:43:06 IST" name="VerifyInvalidUser" data-provider="getInfo" finished-at="2023-04-09T20:43:07 IST" duration-ms="1059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUser -->
+        <test-method signature="VerifyInvalidUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginFunctionalTestCases@47af7f3d]" started-at="2023-04-09T20:43:07 IST" name="VerifyInvalidUser" data-provider="getInfo" finished-at="2023-04-09T20:43:08 IST" duration-ms="1128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUser -->
+        <test-method signature="VerifyInvalidUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginFunctionalTestCases@47af7f3d]" started-at="2023-04-09T20:43:08 IST" name="VerifyInvalidUser" data-provider="getInfo" finished-at="2023-04-09T20:43:09 IST" duration-ms="1272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUser -->
+        <test-method signature="VerifyInvalidUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginFunctionalTestCases@47af7f3d]" started-at="2023-04-09T20:43:09 IST" name="VerifyInvalidUser" data-provider="getInfo" finished-at="2023-04-09T20:43:10 IST" duration-ms="910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUser -->
+        <test-method signature="VerifyInvalidUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginFunctionalTestCases@47af7f3d]" started-at="2023-04-09T20:43:10 IST" name="VerifyInvalidUser" data-provider="getInfo" finished-at="2023-04-09T20:43:12 IST" duration-ms="1837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prjwal@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcde]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUser -->
+        <test-method signature="VerifyInvalidUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginFunctionalTestCases@47af7f3d]" started-at="2023-04-09T20:43:12 IST" name="VerifyInvalidUser" data-provider="getInfo" finished-at="2023-04-09T20:43:14 IST" duration-ms="1754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prjwal@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcde]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUser -->
+      </class> <!-- testcases.LoginFunctionalTestCases -->
+      <class name="testcases.HomePageTestcase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.HomePageTestcase@5e0826e7]" started-at="2023-04-09T20:42:32 IST" name="setup" finished-at="2023-04-09T20:42:40 IST" duration-ms="7773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDashBoradUI()[pri:0, instance:testcases.HomePageTestcase@5e0826e7]" started-at="2023-04-09T20:42:40 IST" name="verifyDashBoradUI" finished-at="2023-04-09T20:42:52 IST" duration-ms="12163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashBoradUI -->
+        <test-method signature="verifycommonstatDashBoradUI()[pri:0, instance:testcases.HomePageTestcase@5e0826e7]" started-at="2023-04-09T20:42:52 IST" name="verifycommonstatDashBoradUI" finished-at="2023-04-09T20:42:56 IST" duration-ms="3679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycommonstatDashBoradUI -->
+        <test-method signature="verifynewsDashBoradUI()[pri:0, instance:testcases.HomePageTestcase@5e0826e7]" started-at="2023-04-09T20:42:56 IST" name="verifynewsDashBoradUI" finished-at="2023-04-09T20:42:59 IST" duration-ms="3125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifynewsDashBoradUI -->
+        <test-method signature="verifyordertotalDashBoradUI()[pri:0, instance:testcases.HomePageTestcase@5e0826e7]" started-at="2023-04-09T20:42:59 IST" name="verifyordertotalDashBoradUI" finished-at="2023-04-09T20:43:03 IST" duration-ms="3646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyordertotalDashBoradUI -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:testcases.HomePageTestcase@5e0826e7]" started-at="2023-04-09T20:43:30 IST" name="tear" finished-at="2023-04-09T20:43:31 IST" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- testcases.HomePageTestcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
